@@ -1,6 +1,6 @@
 # smoothui
 
-#www.patika.dev
+www.patika.dev
 
 > Made with create-react-library
 
