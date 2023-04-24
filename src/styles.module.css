@@ -1,0 +1,79 @@
+/* add css module styles here (optional) */
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 1em;
+  text-align: center;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.primary:hover {
+  background-color: rgba(59, 59, 255, 0.918);
+  color: white;
+  opacity: 0.7;
+}
+.default {
+  border-radius: 10px;
+
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.default:hover {
+  border: 1px solid rgba(59, 59, 255, 0.918);
+  color: rgba(59, 59, 255, 0.918);
+  cursor: pointer;
+}
+.dashed {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px dashed black;
+  color: black;
+  cursor: pointer;
+}
+.dashed:hover {
+  border: 1px dashed rgba(59, 59, 255, 0.918);
+  color: rgba(59, 59, 255, 0.918);
+  cursor: pointer;
+}
+.text {
+  cursor: pointer;
+
+  border-radius: 10px;
+
+  border: none;
+  background-color: white;
+  color: black;
+}
+.text:hover {
+  border: none;
+  background-color: gray;
+  color: black;
+}
+
+.link {
+  cursor: pointer;
+
+  background-color: white;
+  border: none;
+  color: blue;
+}
+.link:hover {
+  opacity: 0.8;
+}
